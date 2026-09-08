@@ -1,4 +1,4 @@
-create or replace view `project-a672b30f-4297-4213-ac9.raw_data.view3` As
+CREATE OR REPLACE VIEW `project-a672b30f-4297-4213-ac9.raw_data.view3` As
 
 SELECT
     EXTRACT(DAYOFWEEK FROM ActivityDate) AS day,
